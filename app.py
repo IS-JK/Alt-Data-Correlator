@@ -40,6 +40,7 @@ def get_cik_for_ticker(ticker, headers):
     return None
 
 
+
 def fetch_structured_sec_filings(tickers):
     print("[*] Fetching structured SEC EDGAR metadata via JSON API...")
     headers = {"User-Agent": SEC_USER_AGENT}
