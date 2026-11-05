@@ -10,7 +10,7 @@ from pytrends.request import TrendReq
 # ==========================================
 # SEC EDGAR requires a descriptive User-Agent (Name/Email)
 SEC_USER_AGENT = "QuantResearcher research@example.com"
-COMPANY_TICKERS = ["SOUN", "PLTR", "RDDT"]
+COMPANY_TICKERS = ["ASTS", "PLTR", "RDDT"]
 LOOKBACK_DAYS = 30
 
 # Official SEC CIK Mapping for target companies
